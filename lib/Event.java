@@ -7,7 +7,6 @@ public class Event {
 	public String eventManager;
 	public String status;
 	public ArrayList<String> tasks;
-//	=new ArrayList<String>()
 	public Event(String title,String id,String customerContact,String eventManager){
 		this.title=title;
 		this.id=id;
@@ -43,6 +42,6 @@ public class Event {
 	public String toString() {
 		// String taskTotal="";
 		// for(String it:tasks)taskTotal+=it;
-		return "Name: "+title+", Id: "+id+", Customer Contact: "+customerContact+", Event Manager:"+eventManager+"Status: "+status+", Tasks:"+tasks;
+		return "Name: "+title+", Id: "+id+", Customer Contact: "+customerContact+", Event Manager:"+eventManager+", Status: "+status+", Tasks:"+tasks;
 	}
 }
